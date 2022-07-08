@@ -1,3 +1,12 @@
+// Clase de producto con el constructor con nombre, marca, precio y stock
+class Producto{
+    constructor(nombre =" ", marca = " ", precio = "1", stock ="1"){
+        this.nombre = nombre
+        this.marca = marca
+        this.precio = precio
+        this.stock = stock
+    }
+}
 // Array vacio, que luego va a llenar el usuario con objetos y declaro las variables globales
 const productos = [];
 let precio, stock, nombre, marca, continua
